@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformation</title>
+    <link rel="stylesheet" href="t_index.css">
+</head>
+<style>
+    body{
+
+    }
+    h1{
+
+    }
+    .box{
+        height: 150px;
+        width: ;
+
+            
+    }
+    .traslate:hover{
+        /* moves 80px right and 30px down */
+
+        transform: translate(80px,30px); 
+    }
+    .rotate:hover{
+        /* rotate clockwise 45 degrees */
+        transform: rotate(45deg);
+
+    }
+    .scale:hover{
+    /* increase size to 150% */
+        transform:scale(1.5);
+    }
+    .skew:hover{
+        /* Tilt by 20deg */
+        transform: skew(20deg);
+
+    }
+    .combo:hover{
+        transform: translateY(-20px),scale();
+    }
+
+</style>
+<body>
+    <h1>CSS Transformation Example</h1>
+    <div class="box translate">Translate</div>
+    <div class="box rotate">Rotate</div>
+    <div class="box scale">Scale</div>
+    <div class="box skew">Skew</div>
+    <div class="box combo">Combo</div>
+    
+</body>
+</html>
