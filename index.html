@@ -3,55 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Multicolour Website</title>
+    <title>layout</title>
 </head>
 <style>
-    /* :root{
-        --primary-colour:#ec77ea94;
-        --text-colour:white;
-        --secondary-colour:#e0c0df94;
-    } */
-    :root{
-        --primary-colour:#acefc694;
-        --text-colour:rgb(25, 162, 52);
-        --secondary-colour:#69aa7894;
+    *{
+       margin: 0;
+       padding: 0;
        
     }
-    body{
-        background-color:var(--secondary-colour);
+    header{
+        position: sticky ;
+        top: 0;
+
     }
-    *{ 
-        margin: 0; 
-        padding: 0;
-           font-family: "Poppins", sans-serif;
+    nav{
+
+        height: 83px;
+        background-color: pink;
+        
+        
     }
-    ul li{
-        list-style: none;
-        display: inline;
-        font-weight:bolder;
-        padding: 30px;
-        color: var(--text-colour);
+    .container{
+        background-color: rgb(82, 189, 68);
+        margin: 12px 34px;
+       /* height: 322px;  */
+        text-align: center;
+        padding: 55px 23px;
     }
-    nav{background-color: var(--primary-colour);
-        padding: 15px 0px;
+    .box1{
+        background-color: palevioletred;
+        height: 70vh;
+        width: 45%;
+        display: inline-block;
+        margin: 0 12px;
+        
     }
-    ul li a{
-        text-decoration: none;
-        color: var(--text-colour);
-    }
-    
+    .box2{
+        background-color: blue;
+      height: 70vh;  
+      width: 45%; 
+      display: inline-block;
+margin: 0 12px;
+       }
+       .text-box{
+        padding: 34px;
+        border: 2px solid white;
+        margin:  2vw 34vw;
+        color: white;
+        text-align: center;
+        border-radius: 13px;
+        font-size: 2em;
+       }
+       main{
+        background-color: black;
+       }
+       footer{
+        height: 100px;
+        background-color: bisque;
+       }
+       .orange-box{
+        height: 32px;
+        width: 32px;
+        background-color: orange;
+        position: fixed;
+        bottom: 12px;
+        right: 23px;
+        border-radius: 60px;
+       }
 </style>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="\">Home</li></a>
-                <li><a href="\">Serivce</li></a>
-                <li><a href="\">About</li></a>
-                <li><a href="\">Contact Us</li></a>
-               
-            </ul>
+           
         </nav>
     </header>
+    <main>
+        <div class="container">
+         <div class="box1"></div>
+         <div class="box2"></div>
+        </div>
+        <div class="text-box">
+            <p> Welcome to Sigma Web Dev Express
+            </p>
+        </div>
+        <div class="orange-box"></div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
