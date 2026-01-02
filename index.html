@@ -1,28 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>>Display Card </title>
 </head>
 <style>
-    p{color: red;}
-   
+    * {
+        margin:0;
+        padding:0;
+    }
+
+    body {
+        background-color: gray;
+   display: flex; }
+    
+
+    .card {
+margin-left: 7px;
+        background-color: white;
+        width: 350px;
+        height: 550px;
+        border-radius: 3vh;
+        margin-top: 5px;
+        padding: 4px;
+        margin-right: 7px;
+        
+    }
+
+    .boat {
+        padding: 7px;
+
+    }
+
+    .boat img {
+        border-radius: 3vh;
+
+    }
+
+    .content {
+        padding: 7px;
+    }
+
+    .capsules span {
+        border-radius: 3vh;
+        border: 1px solid black;
+        padding: 4px 13px;
+    }
+
+    .capsules {
+        padding: 4px 30px;
+    }
+
+    .content p {
+        color: gray;
+    }
+    .button{
+        text-align: center;
+      
+    }
+    .button button:hover{
+        background-color: beige;
+    }
+    .button button{
+        cursor: pointer;
+        
+        padding: 12px;
+        border-radius: 111px;
+        background-color: rgb(156, 199, 227);
+        color: rgb(67, 123, 156);
+        border: none;
+    }
+    
+
+
 </style>
+
 <body>
-    <div>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora natus, deserunt consequuntur sunt saepe maxime, reiciendis molestias optio officiis cupiditate ea vitae quas?</p>
-    <p> I am a paragraph</p>
-    <p>I am another paragraph</p>
+    
+    <div class="card">
+        <div class="boat">
+            <img width="335" height="230"
+                src="https://images.unsplash.com/photo-1510857817970-2a7060a55c8c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwb24lMjBib2F0fGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
+                alt="img">
+        </div>
+        <div class="capsules"><span>
+                nature
+            </span>
+            <span>lake</span>
+
+        </div>
+        <div class="content">
+            <h2>Shubhi</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nemo atque molestiae!Lorem ipsum,
+                dolor sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi et, cumque quas iure aperiam
+                debitis, illum excepturi eligendi assumenda laborum hic facere fugit. amet consectetur adipisicing elit.
+                Officia cumque possimus consequuntur?</p>
+        </div>
+        <div class="button">
+            <button>read more</button> </div>
+
     </div>
-    <div>
-   
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem porro voluptatem sint vel nisi beatae vitae excepturi ad minima, minus consectetur. Voluptatem, quibusdam.</p>
-    <p>I am also another paragraph</p>
-    <p>I am also a paragraph</p>
+<div class="card">
+        <div class="boat">
+            <img width="335" height="230"
+                src="https://images.unsplash.com/photo-1510857817970-2a7060a55c8c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwb24lMjBib2F0fGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
+                alt="img">
+        </div>
+        <div class="capsules"><span>
+                nature
+            </span>
+            <span>lake</span>
+
+        </div>
+        <div class="content">
+            <h2>Shubhi</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate nemo atque molestiae!Lorem ipsum,
+                dolor sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi et, cumque quas iure aperiam
+                debitis, illum excepturi eligendi assumenda laborum hic facere fugit. amet consectetur adipisicing elit.
+                Officia cumque possimus consequuntur?</p>
+        </div>
+        <div class="button">
+            <button>read more</button> </div>
+
     </div>
 
 </body>
-
 
 </html>
